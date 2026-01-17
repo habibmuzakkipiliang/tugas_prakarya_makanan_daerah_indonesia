@@ -11,17 +11,23 @@
         background-color: white;
         border-collapse: collapse;
         padding: 15px;
-        line-height: 2.9em;
-        word-spacing: 5%;
+        line-height: 3.0em;
+        word-spacing: 15%;
     }
 
-    .body {
+    .body, .html {
         background-color: orange;
         color: black;
         font-size: medium;
         font-family: sans-serif;
-        line-height: 2.9em;
-        word-spacing: 5%;
+        line-height: 3,0em;
+        word-spacing: 15%;
+    }
+
+    p, ol, ul, li, .footer, .header, html, body {
+        font-size: medium;
+        line-height: 3.0em;
+        word-spacing: 15%;
     }
 
     .header, .footer {
@@ -29,6 +35,7 @@
         background-color: yellow;
         border: 5px solid black;
         border-radius: 15px;
+        word-spacing: 15%;
     }
 
     th {
@@ -43,9 +50,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26/dist/sweetalert2.all.min.js" integrity="sha256-3s55x5rvnmHXnqLlMg0v8/YOseaMNdiTF6I/CKxcQVE=" crossorigin="anonymous"></script>
 
-
     <script>
-        Swal.fire ("Assalamualaikum", "Selamat datang di Website Tugas Prakarya Makanan Khas Indonesia, oleh Habib Muzakki dari Kelas 12 Agama, MAN 2 KOTA SERANG", "info")
+        Swal.fire("Assalamualaikum", "Selamat datang di Website Tugas Prakarya Makanan Khas Indonesia, oleh Habib Muzakki dari Kelas 12 Agama, MAN 2 KOTA SERANG", "info")
     </script>
 
 
@@ -57,15 +63,45 @@
         <div class="row">
             <div class="col-sm-12 table-responsive-md" style="background-color: white;">
 
-                <div style="font-size: 23px;" class="p-3 mb-3">
+                <div style="font-size: 26px;" class="p-3 mb-3">
                         <p><b>Nama lengkap :</b> Habib Muzakki</p>
                         <p><b>Kelas :</b> 12 Agama</p>
                         <p><b>Sekolah :</b> MAN 2 KOTA SERANG</p>
                         <p><b>Absen :</b> 15</p>
                         <p><b>Mapel :</b> Prakarya</p>
                         <p><b>Guru :</b> Pak Win</p>
-                        <hr>
                 </div>
+
+                <hr>
+
+                <div style="font-size: 26px;" class="p-5 mb-5">
+                    <h2 align="center"><b>Pendahuluan</b></h2>
+
+                <p><b>Latar Belakang</b></p>
+
+                <p>
+                    Indonesia merupakan negara kepulauan yang kaya akan keragaman budaya, suku bangsa, dan sumber daya alam. Kekayaan ini tercermin dalam ragam kuliner khas daerah yang memiliki karakteristik unik di setiap provinsinya. Makanan khas daerah bukan sekadar kebutuhan pokok, melainkan identitas budaya yang menggunakan bahan baku lokal dan teknik pengolahan yang diwariskan secara turun-temurun.
+                </p>
+
+                <p>
+                    Sebagai siswa kelas 12, pemahaman mengenai prakarya dan kewirausahaan makanan khas daerah sangat penting untuk menumbuhkan rasa cinta terhadap produk lokal serta melihat peluang potensi ekonomi kreatif di bidang kuliner.
+                </p>
+
+                <p><b>Tujuan Penulisan :</b></p>
+
+                <p>
+                    Tujuan dari penyusunan laporan tugas ini adalah:
+                </p>
+
+                <ol>
+                    <li><p><b>Mengidentifikasi</b> berbagai jenis makanan khas daerah dari seluruh provinsi di Indonesia</p></li>
+                    <li><p><b>Menganalisis</b> bahan baku utama, bahan tambahan, serta teknik pengolahan yang digunakan dalam pembuatan makanan tersebut.</li>
+                    <li><b>Memahami</b> karakteristik cita rasa yang menjadi ciri khas dari masing-masing daerah.</p></li>
+                    <li><p><b>Memenuhi</b> tugas mata pelajaran Prakarya yang diampu oleh Pak Win.</p></li>
+                </ol>
+                </div>
+
+                <hr>
 
                 <table class="table-bordered table-active" style="table-layout: auto; border: 3px; background-color: white;">
 
@@ -412,6 +448,28 @@
                         <td>Sangat pedas dan segar.</td>
                     </tr>
                 </table>
+
+                <hr>
+
+                <div class="mb-5 p-5" style="font-size: 26px;">
+                    <h2 align="center"><b>Kesimpulan</b></h2>
+
+                    <p>
+                        Berdasarkan hasil identifikasi dan analisis terhadap berbagai makanan khas daerah di Indonesia, dapat disimpulkan bahwa:
+                    </p>
+
+                    <ul style="list-style-type: square;">
+                        <li><p><b>Keanekaragaman Bahan Baku:</b> Setiap daerah memanfaatkan sumber daya alam lokal sebagai bahan utama, seperti ikan tenggiri pada Pempek , nangka muda pada Gudeg , hingga tepung sagu pada Papeda</p></li>
+                        <li><p><b>Variasi Teknik Pengolahan:</b> Masyarakat Indonesia memiliki teknik memasak yang sangat beragam, mulai dari teknik merebus lama (slow cooking) pada Rendang dan Coto Makassar , pembakaran pada Ayam Taliwang , hingga pengasapan pada Daging Sei</p></li>
+                        <li><p><b>Karakteristik Cita Rasa:</b> Cita rasa kuliner Nusantara sangat dipengaruhi oleh penggunaan rempah-rempah yang kuat. Terdapat perbedaan kecenderungan rasa antar wilayah, seperti rasa manis-gurih yang dominan di Jawa (Gudeg) , serta rasa pedas yang kuat di wilayah Sumatra, Bali, dan Nusa Tenggara</p></li>
+                        <li><p><b>Identitas Budaya:</b> Makanan khas daerah bukan hanya sekadar produk konsumsi, tetapi juga merupakan warisan budaya yang mencerminkan kreativitas dan kearifan lokal masyarakat Indonesia dalam mengolah bahan pangan.</p></li>
+                    </ul>
+
+                    <p>
+                        Dengan memahami kekayaan kuliner ini, kita diharapkan dapat terus melestarikan dan mempromosikan makanan khas daerah sebagai bagian dari identitas bangsa Indonesia.
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
